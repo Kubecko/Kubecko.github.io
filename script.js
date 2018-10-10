@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'http://localhost:8888/tasks_frontend/';
+  const apiRoot = 'https://polar-dusk-90431.herokuapp.com/v1/task/';
   const trelloApiRoot = 'https://polar-dusk-90431.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
